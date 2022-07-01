@@ -1,0 +1,40 @@
+<com.google.android.flexbox.FlexboxLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:alignContent="space_around"
+    app:alignItems="flex_start"
+    app:dividerDrawable="@drawable/divider"
+    app:flexWrap="wrap"
+    app:showDividerVertical="beginning|middle">
+
+    <TextView
+        style="@style/FlexItem"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:text="1" />
+
+    <TextView
+        style="@style/FlexItem"
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:text="2" />
+
+    <TextView
+        style="@style/FlexItem"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="3" />
+
+    <TextView
+        style="@style/FlexItem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="4" />
+
+    <TextView
+        style="@style/FlexItem"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:text="5" />
+</com.google.android.flexbox.FlexboxLayout>
